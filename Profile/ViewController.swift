@@ -24,39 +24,39 @@ class ViewController: UIViewController {
 
     @IBAction func tapButton1(){
         
-        profileImageView.image = UIImage (named: "philImage")
+        profileImageView.image = UIImage (named: "amiImage")
         
         profileLabel.text = "名前"
 
-        profileCommentLabel.text = "iPhoneメンターのフィルだよ"
+        profileCommentLabel.text = "ちゃんみあだよ！"
     }
     
     @IBAction func tapButton2(){
        
-        profileImageView.image = UIImage (named: "trackImage")
+        profileImageView.image = UIImage (named: "danceImage")
         profileLabel.text = "スポーツ"
 
-        profileCommentLabel.text = "陸上競技が好きで、走り幅跳びが得意"
+        profileCommentLabel.text = "ダンスが好きで、10年近く習っていたよ"
 
     }
     
     @IBAction func tapButton3(){
        
-        profileImageView.image = UIImage (named: "appleImage")
+        profileImageView.image = UIImage (named: "koreanfoodImage")
         
         profileLabel.text = "好きな食べ物"
 
-        profileCommentLabel.text = "リンゴが好きで、いつも持ち歩いている"
+        profileCommentLabel.text = "韓国料理が好きで高校生の時はよく\n新大久保に遊びに行ってたよ"
 
     }
     
     @IBAction func tapButton4(){
        
-        profileImageView.image = UIImage (named: "flightImage")
+        profileImageView.image = UIImage (named: "musicImage")
         
         profileLabel.text = "趣味"
 
-        profileCommentLabel.text = "飛行機に乗って、空を散歩すること"
+        profileCommentLabel.text = "音楽を聴く事が好きで、\n洋楽・K-POP・J-POPを聴くよ"
 
     }
 }
